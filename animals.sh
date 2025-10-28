@@ -9,7 +9,7 @@
 
 while true; do
     echo "Please type an animal (or type 'Goodbye' to exit):"
-    read ANIMAL
+    read -r ANIMAL
 
     case $ANIMAL in
         "Dog")
